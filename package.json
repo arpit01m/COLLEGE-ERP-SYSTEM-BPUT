@@ -8,6 +8,9 @@
     "server": "node server/src/server.js",
     "server:dev": "node --watch server/src/server.js",
     "build": "vite build",
+    "build:server": "npm --prefix server install",
+    "build:all": "npm install && npm run build && npm run build:server",
+    "start": "node server/src/server.js",
     "lint": "oxlint",
     "preview": "vite preview"
   },

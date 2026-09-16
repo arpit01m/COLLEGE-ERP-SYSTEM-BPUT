@@ -34,9 +34,16 @@ app.get('/api/health', (req, res) => {
 // Student Endpoints
 app.use('/api/students', studentRoutes);
 
-// Catch-all 404
-app.use((req, res) => {
-  res.status(404).json({ success: false, message: `Endpoint ${req.originalUrl} not found.` });
+// Serve Frontend in Production
+const distPath = path.resolve(__dirname, '../../dist');
+app.use(express.static(distPath));
+
+// For client-side routing, send index.html for non-API GET requests
+app.get('*', (req, res) => {
+  if (req.path.startsWith('/api')) {
+    return res.status(404).json({ success: false, message: `Endpoint ${req.originalUrl} not found.` });
+  }
+  res.sendFile(path.resolve(distPath, 'index.html'));
 });
 
 // Start Server & Initialize Database

@@ -393,7 +393,7 @@ export const INITIAL_EVENTS = [
     registrationDeadline: "2026-10-18",
     status: "Published",
     featured: false,
-    banner: "/images/global_tech_placement.jpeg",
+    banner: "/images/global_tech_placment.jpeg",
     description: "Keynote talks from Google, Microsoft, and TCS Tech Leaders followed by resume screening and mock interview drill for 3rd and 4th year B.Tech students.",
     externalLink: "",
     participants: ["2501445307", "2501445597", "2501445457", "2501445229", "2501445506", "2501445005"]

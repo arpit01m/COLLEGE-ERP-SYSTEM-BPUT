@@ -308,7 +308,7 @@ export const INITIAL_EVENTS = [
     registrationDeadline: "2026-10-25",
     status: "Published",
     featured: false,
-    banner: "https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=800&q=80",
+    banner: "/images/bput_hackathon.jpeg",
     description: "Exhibition of student patents, research papers published in IEEE/Springer, and prototype hardware demos funded by Govt of Odisha.",
     externalLink: "",
     participants: ["2501445597", "2501445229"]
@@ -325,7 +325,7 @@ export const INITIAL_EVENTS = [
     registrationDeadline: "2026-10-10",
     status: "Published",
     featured: true,
-    banner: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=80",
+    banner: "/images/sih.jpeg",
     description: "48-hour continuous national hackathon focused on building generative AI solutions for healthcare, smart campus automation, and sustainable energy.",
     externalLink: "https://technovate2026.bput.ac.in",
     participants: ["2501445307", "2501445597", "2501445229"]
@@ -342,7 +342,7 @@ export const INITIAL_EVENTS = [
     registrationDeadline: "2026-10-28",
     status: "Published",
     featured: true,
-    banner: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=80",
+    banner: "/images/srijana_fest.jpeg",
     description: "The flagship annual cultural extravaganza featuring live celebrity musical performances, battle of the bands, fashion show, and classical dance competitions.",
     externalLink: "",
     participants: ["2501445457", "2501445506", "2501445005", "2501445307"]
@@ -359,7 +359,7 @@ export const INITIAL_EVENTS = [
     registrationDeadline: "2026-10-24",
     status: "Published",
     featured: true,
-    banner: "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=800&q=80",
+    banner: "/images/annual_sports_meet.jpeg",
     description: "Cricket, Football, Basketball, Volleyball, Track & Field events across all engineering departments. Trophy ceremony presided by Hon'ble Vice Chancellor.",
     externalLink: "",
     participants: ["2501445229", "2501445005"]
@@ -376,7 +376,7 @@ export const INITIAL_EVENTS = [
     registrationDeadline: "2026-10-02",
     status: "Published",
     featured: false,
-    banner: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80",
+    banner: "/images/hands_on_workshop.jpeg",
     description: "Industry experts from AWS & RedHat demonstrate containerized microservice deployments, CI/CD pipelines, and Kubernetes pod auto-scaling.",
     externalLink: "",
     participants: ["2501445307", "2501445597", "2501445457", "2501445506"]
@@ -393,7 +393,7 @@ export const INITIAL_EVENTS = [
     registrationDeadline: "2026-10-18",
     status: "Published",
     featured: false,
-    banner: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=800&q=80",
+    banner: "/images/global_tech_placment.jpeg",
     description: "Keynote talks from Google, Microsoft, and TCS Tech Leaders followed by resume screening and mock interview drill for 3rd and 4th year B.Tech students.",
     externalLink: "",
     participants: ["2501445307", "2501445597", "2501445457", "2501445229", "2501445506", "2501445005"]
@@ -410,7 +410,7 @@ export const INITIAL_EVENTS = [
     registrationDeadline: "2026-11-08",
     status: "Published",
     featured: false,
-    banner: "https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=800&q=80",
+    banner: "/images/bput_autumn.jpeg",
     description: "Exhibition of student patents, research papers published in IEEE/Springer, and prototype hardware demos funded by Govt of Odisha.",
     externalLink: "",
     participants: ["2501445597", "2501445229"]
